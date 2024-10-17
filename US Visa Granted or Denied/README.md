@@ -69,5 +69,12 @@ From the uploaded **Univariate Analysis of Categorical Features** plots, you can
    - A larger number of cases are **Certified** compared to those that are **Denied**.
    - This suggests that the majority of applications or cases in the dataset hgories in each feature are distributed.
 
+## Chi-Square Test:
+
+![image](https://github.com/user-attachments/assets/f7334ffa-aabc-4fd4-a28f-dc31b3572782)
+
+
+
+
 
 
