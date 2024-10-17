@@ -1,3 +1,5 @@
+# Maximizing Revenue for Taxi Cab Drivers (T-Test)
+
 ## Problem Statement: 
 In the rapidly evolving taxi booking industry, optimizing revenue is crucial for sustained success and driver satisfaction. Our objective is to leverage data-driven insights to enhance revenue opportunities for taxi drivers. This study aims to explore the impact of payment methods on fare pricing, focusing on the connection between payment type and fare amount.
 
