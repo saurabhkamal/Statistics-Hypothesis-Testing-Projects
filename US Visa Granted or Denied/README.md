@@ -71,7 +71,8 @@ From the uploaded **Univariate Analysis of Categorical Features** plots, you can
 
 ## Chi-Square Test:
 
-![image](https://github.com/user-attachments/assets/f7334ffa-aabc-4fd4-a28f-dc31b3572782)
+![image](https://github.com/user-attachments/assets/44734055-1eb4-4ab5-afb7-132a47119046)
+
 
 
 
