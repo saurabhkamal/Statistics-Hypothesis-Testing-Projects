@@ -73,7 +73,7 @@ From the uploaded **Univariate Analysis of Categorical Features** plots, you can
 
 ![image](https://github.com/user-attachments/assets/44734055-1eb4-4ab5-afb7-132a47119046)
 
-#### **Report**
+### **Report**
 
 The table summarizes the results of Chi-square tests conducted on various categorical features in relation to the target variable, `case_status`. 
 
