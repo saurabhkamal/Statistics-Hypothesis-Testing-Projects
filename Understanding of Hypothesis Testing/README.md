@@ -1,4 +1,4 @@
-**•	T-test
+•	T-test
   o	One-sample t-test
   o	Independent two-sample t-test
   o	Paired t-test
@@ -6,4 +6,4 @@
 •	ANOVA test
   o	Pairwise t-test
 
-**
+
