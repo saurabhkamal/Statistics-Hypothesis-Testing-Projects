@@ -73,8 +73,43 @@ From the uploaded **Univariate Analysis of Categorical Features** plots, you can
 
 ![image](https://github.com/user-attachments/assets/44734055-1eb4-4ab5-afb7-132a47119046)
 
+#### **Report**
 
+The table summarizes the results of Chi-square tests conducted on various categorical features in relation to the target variable, `case_status`. 
 
+### Table Explanation
+
+1. **Columns**:
+   - **Column**: This refers to the categorical feature that was tested for independence with the target variable `case_status`.
+   - **Hypothesis Result**: This shows the outcome of the Chi-square test for each feature concerning the null hypothesis.
+
+2. **Results**:
+   - **Reject Null Hypothesis**: This outcome suggests that there is a statistically significant association between the feature and the target variable (`case_status`). In other words, the distribution of the target variable varies depending on the category of the feature.
+   - **Fail to Reject Null Hypothesis**: This means there is no statistically significant evidence to suggest an association between the feature and the target variable. The feature does not significantly influence or relate to the distribution of the target variable.
+
+### Interpretation of Each Row
+
+- **`continent`**: The result indicates a significant relationship between `continent` and `case_status`, meaning that the status (Denied or Certified) is likely dependent on the continent from which the individual is.
+  
+- **`education_of_employee`**: Similar to `continent`, this feature shows a significant association with the target variable, suggesting that educational background may influence the outcome of `case_status`.
+
+- **`has_job_experience`**: This feature also shows a significant relationship, indicating that whether an individual has job experience could affect their `case_status`.
+
+- **`requires_job_training`**: The result shows "Fail to Reject Null Hypothesis," indicating no significant association with `case_status`. This suggests that the requirement for job training does not meaningfully affect the outcome.
+
+- **`region_of_employment`**: This feature is significant, suggesting that the region where an individual is employed may influence their `case_status`.
+
+- **`unit_of_wage`**: This feature also indicates a significant relationship with the `case_status`, implying that how wages are calculated might affect the outcome.
+
+- **`full_time_position`**: The outcome here suggests a significant association, meaning whether an employee is in a full-time position can influence their `case_status`.
+
+- **`case_status`**: While it may seem redundant to include `case_status` in this context, its inclusion here confirms that the variable is indeed significant to itself (which is a logical requirement).
+
+### Overall Conclusion
+
+The overall results suggest that several categorical features are significantly associated with the `case_status`, while only `requires_job_training` does not show a significant relationship. 
+
+This implies that when predicting or analyzing `case_status`, the features `continent`, `education_of_employee`, `has_job_experience`, `region_of_employment`, `unit_of_wage`, and `full_time_position` should be considered as they might have a meaningful impact on the outcome. The results of this Chi-square test can guide further analysis and modeling efforts, as it highlights features worth focusing on for understandiation on any part, feel free to ask!
 
 
 
