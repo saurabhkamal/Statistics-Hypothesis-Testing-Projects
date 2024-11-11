@@ -6,3 +6,4 @@
 4. International Soccer Matches, who scored more goals, Men or Women (Wilcoxon-Mann-Whitney test)
 5. A/B Testing on Marketing Campaigns (ANOVA and Independent Samples T-Test)
 6. A/B test for an Onboarding Flow Optimization project (Shapiro-Wilk test, Levene’s Test, Chi-square test, and Mann-Whitney U)
+7. A-B Testing on Push Notification Strategy
